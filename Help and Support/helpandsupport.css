@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(45deg,rgb(208, 249, 229),white);
+}
+
+.App{
+    width: 100%;
+    padding: 2%;
+}
+.bg-color{
+    background-color: #50A060;;
+}
+.row{
+    justify-content: space-evenly;
+}
+#h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.App1{
+ padding-left: 30px;
+ padding-right: 25px;
+ padding-top: 40px;
+}
+.card-img{
+    border-radius: 100px;
+}
+.form-control{
+    border-radius: 3px;
+     padding: 15px;
+}
+.info{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card1{
+    padding:20px;
+}
+.list-group-item{
+    background-color: #C9EEFF;
+    margin-top: 15px;
+}
+img{
+    margin-top: 10px;
+}
+.end3{
+ text-align: center;
+}
+.End{
+    margin-top: 20px;
+    padding:30px;
+    border-width: 1px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 6px 0px #808080;
+    margin-bottom: 1%;
+}
+.card{
+    box-shadow: 1px 3px 6px 0px #808080;
+}
+.end3{
+    padding-top: 30px;
+}

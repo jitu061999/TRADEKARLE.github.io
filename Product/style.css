@@ -1,0 +1,427 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container {
+    /* background-color: red; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .mainContainer{
+    background-image: linear-gradient(to bottom right,aliceblue,rgba(124, 46, 202, 0.865));
+} */
+/* ipo section */
+.ipo {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ipo-heading {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 3.4rem;
+    color: #096A2E;
+}
+
+.container .para {
+    width: 60%;
+    font-size: 1.2rem;
+    padding: 8px;
+}
+
+.ipo-img {
+    padding: 8px;
+
+}
+
+/* ipo section end */
+.subContainer {
+    width: 84%;
+    margin-left: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.height {
+    height: 90px;
+}
+
+/* navbar */
+
+/* platform section start*/
+.platforms {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.platform {
+    padding: 10px 10px 0px 10px;
+    width: 330px;
+    border-radius: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bg-voilet {
+    background-color: rgb(155, 77, 228);
+}
+
+.bg-green {
+    background-color: #238c63;
+}
+
+.bg-blue {
+    background-color: rgb(65, 65, 238);
+}
+
+.color-green {
+    color: #238c63;
+}
+
+.color-blue {
+    color: rgb(65, 65, 238);
+}
+
+.slider {
+    display: flex;
+    margin-top: 5%;
+}
+
+.stores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.store {
+    width: 140px;
+}
+
+.ios-img {
+    width: 180px;
+}
+
+.web-img {
+    width: 220px;
+}
+
+.exe-img {
+    width: 245px;
+}
+
+.btn {
+    margin-bottom: 1rem;
+    padding: 6px 18px;
+    font-size: 17px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 3.4rem;
+    color: #096A2E;
+}
+
+.container h5 {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.platform h2 {
+    padding: 4px;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.platform p {
+    font-weight: bold;
+    padding: 4px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+}
+
+
+@media(max-width:1024px) {
+
+    .platform {
+        width: 240px;
+    }
+
+    .platform h2 {
+        font-size: 1.4rem;
+    }
+
+    .store {
+        width: 130px;
+    }
+
+    .ios-img {
+        width: 140px;
+    }
+
+    .web-img {
+        width: 200px;
+    }
+
+    .exe-img {
+        width: 244px;
+    }
+}
+
+@media (max-width:990px) {
+
+    .container h1 {
+        font-size: 2.2rem;
+    }
+
+    .container h5 {
+        font-size: 0.9rem;
+    }
+
+    .slider {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .platform {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 265px;
+    }
+
+    .platform h2 {
+        font-size: 1.4rem;
+    }
+
+    .platform p {
+        font-size: 12px;
+    }
+
+    .ios-img {
+        width: 130px;
+    }
+
+    .web-img {
+        width: 150px;
+    }
+
+    .exe-img {
+        width: 130px;
+    }
+
+    .store {
+        width: 100px;
+    }
+
+    .btn {
+        padding: 8px 31px;
+        font-size: 12px;
+    }
+
+    /* ipo section */
+    .ipo-heading {
+        font-size: 2rem;
+    }
+
+    .ipo-img {
+        width: 20%;
+    }
+
+    .container p {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .height {
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+}
+
+@media(max-width:450px) {
+    .ipo-img {
+        position: absolute;
+        width: 50%;
+    }
+
+    .flist {
+        flex-direction: column;
+    }
+
+    .flist a {
+        font-size: 14px;
+    }
+
+    ul li {
+        width: 85%;
+    }
+
+    .height {
+        margin-top: 12%;
+    }
+
+    .height li a {
+        margin-left: 25%;
+    }
+
+    .platformMargin {
+        margin-top: 38%;
+    }
+
+
+}
+
+
+/* platform section end */
+
+
+
+.heading {
+    margin-bottom: 14px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+/* products start  */
+.products{
+    margin-top: 2%;
+}
+.products-nav{
+    margin-top: 2%;
+}
+.products-nav li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #096A2E;
+    display: inline;
+}
+.active-product{
+    background-color: #50A060;
+    color: #096A2E;
+}
+.product{
+    padding: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.product p{
+    width: 55%;
+    font-size: 20px;
+}
+.product-img{
+    width: 40%;
+}
+.product-btn{
+    margin-top: 8px;
+    background-color: white;
+    color: #50A060;
+    display:block;
+    width: fit-content;
+    padding: 3px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #50A060;
+}
+
+.hide-product{
+    display: none;
+}
+.show-product{
+    display: flex;
+}
+.start-heading{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 3rem;
+    color: #096A2E;
+}
+.start-trade{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 4%;
+}
+.start-trade span{
+    color: #50A060;
+}
+.bg-section{
+    background-color: aliceblue;
+    padding: 2%;
+}
+/* products end */
+/* FAQ section start */
+.left-heading{
+    text-align: left;
+    margin-top: 1%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.faqs{
+    display: flex;
+    padding: 2% 0 2% 0;
+}
+.faq{
+    width: 60%;
+}
+.faq-box{
+    border: 1px solid #50A060;
+    border-radius: 10px;
+    padding: 2%;
+    cursor: pointer;
+    margin: 2%;
+}
+.faq-box h3{
+    display: inline;
+    font-size: 1.2rem;
+}
+.faq-box svg{
+    float: right;
+}
+.faq-img{
+    width: 35%;
+    height: 300px;
+}
+.faq-content p{
+    font-size: 1.2rem;
+    padding: 1%;
+}
+.faq-content ul{
+    display: inline;
+}
+.faq-content li{
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 1.2rem;
+}
+.hide-content{
+    display: none;
+}
+/* FAQ section start */
+

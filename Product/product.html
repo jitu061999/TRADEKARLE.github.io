@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Product</title>
+    <link rel="stylesheet" href="navfooter.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/trade-karle-website-favicon-black.png">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <nav>
+        <ul>
+            <li class="logo">tRADEKARLE</li>
+            <li class="btn"><span class="fas fa-bars"></span></li>
+            <div class="items">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Careers/career.html">Career</a></li>
+                <li><a href="../blogs_baiom/index.html">Blog</a></li>
+                <li><a href="../Aboust_us_om/index.html">About Us</a></li>
+                <li><a href="../Product/product.html">Products</a></li>
+                <li><a href="../Help and Support/helpandsupport.html">Support</a></li>
+            </div>
+            <li class="search-icon">
+                <input type="search" placeholder="Search">
+                <label class="icon">
+                    <span class="fas fa-search"></span>
+                </label>
+            </li>
+            <div class="nav-btn ">
+                <button><a href="../Login/index.html">Login</a></button>
+           </div>
+
+        </ul>
+    </nav>
+    <!-- navbar end -->
+    <!-- Product section start -->
+    <section id="products" class="products">
+        <div class="container">
+            <h1><span>Products</span></h1>
+            <ul class="products-nav">
+                <li onclick="showProduct('#equity-product')" class="active-product">Equity</li>
+                <li onclick="showProduct('#ipo-product')">IPO</li>
+                <li onclick="showProduct('#etf-product')">ETF</li>
+                <li onclick="showProduct('#mutualfund-prodcut')">Mutual Fund</li>
+                <li onclick="showProduct('#currency-product')">Currency</li>
+                <li onclick="showProduct('#commodities-product')">Commodities</li>
+                <li onclick="showProduct('#futureoptions-product')">Futures & Options</li>
+            </ul>
+        </div>
+        <div class="container product show-product" id="equity-product">
+            <p>Equity is also known as shareholders equity. Equity consists of money that would remain if company assets
+                were sold and all of its debt was paid off. In a nutshell, equity is a company net asset less
+                liabilities. Equity is the company capital raised, which is then used to purchase assets, invests in
+                projects, and acquisitions <button class="product-btn">Read more</button></p>
+
+            <img class="product-img" src="Equity.png" alt="">
+        </div>
+        <div class="container product hide-product" id="ipo-product">
+            <p>IPO is a public offering in which a private company (that has a handful of shareholders) is taken public
+                by listing it on the stock exchange and offering its shares to investors in the primary market. A
+                process used in IPO helps in efficient price discovery of the securities. The issuer provides a price
+                band within which investors may bid, and the final price is determined by the issuer only after the
+                bidding process has concluded. Prospective buyers are given information about the proposed offering in
+                the form of a lengthy document known as a prospectus. <button class="product-btn">Read more</button></p>
+
+            <img class="product-img" src="ipo.jfif" alt="">
+        </div>
+        <div class="container product hide-product" id="etf-product">
+            <p>An ETF, also known as an exchange-traded fund is a pooled investment of assets that functions similarly
+                to a mutual fund. Unlike mutual funds, ETFs typically track a specific index, sector, commodity, etc.
+                ETF prices reflect the Net asset value (NAV) of the basket in which it invests...<button
+                    class="product-btn">Read more</button></p>
+
+            <img class="product-img" src="ETF.png" alt="">
+        </div>
+        <div class="container product hide-product" id="currency-product">
+            <p>Foreign exchange is the most liquid, decentralised, over-the-counter market, with a daily volume of more
+                than $6.6 trillion in 2019. Individuals and institutions from all over the world buy and sell currencies
+                on the currency market...<button class="product-btn">Read more</button></p>
+
+            <img class="product-img" src="currency.png" alt="">
+        </div>
+        <div class="container product hide-product" id="mutualfund-prodcut">
+            <p>A mutual fund is a financial vehicle that draws money from investors and invests those funds in various
+                securities. The mutual fund's holdings are referred to as its portfolio. Professional money managers
+                manage the fund and allocate funds in order to generate the best returns for the investors...<button
+                    class="product-btn">Read more</button></p>
+
+            <img class="product-img" src="mutual-fund.png" alt="">
+        </div>
+        <div class="container product hide-product" id="commodities-product">
+            <p>A commodity market is one that deals in trading raw materials or primary products rather than
+                manufacturing products, such as cocoa, fruit, and sugar. Commodity pricing is primarily influenced by
+                economic development and technological advances, supply, demand, and scarcity....<button
+                    class="product-btn">Read more</button></p>
+
+            <img class="product-img" src="commodities.png" alt="">
+        </div>
+        <div class="container product hide-product" id="futureoptions-product">
+            <p>Futures are an exchange-traded standardized derivative agreement to buy or sell the underlying asset at a
+                pre-determined price on a specific date. A stock, index, currency, or commodity can serve as the
+                underlying asset. The contract is directly executed via a regulated and organized exchange and the
+                parties of the futures contract are obligated to carry out the terms of the agreement....<button
+                    class="product-btn">Read more</button></p>
+
+            <img class="product-img" src="futureoptions.png" alt="">
+        </div>
+    </section>
+    <section class="bg-section">
+        <h2 class="start-heading">How to start trading with Moneysukh?</h2>
+        <div class="container start-trade">
+            <div>
+                <img src="register.png" alt="">
+                <h2><span>01.</span> Register</h2>
+            </div>
+            <div>
+                <img src="adddetails.png" alt="">
+                <h2><span>02.</span> Add Your Details</h2>
+            </div>
+            <div>
+                <img src="register.png" alt="">
+                <h2><span>03.</span> Start Trading</h2>
+            </div>
+        </div>
+    </section>
+    <!-- prodcut section end -->
+    <!-- platform section -->
+    <section id="platforms" class="platforms">
+        <div class="container">
+            <h1><span>Platform</span></h1>
+            <h5>Platforms Powered with dynamic alert,
+                <br>
+                real time feeds and a very handy dashboard
+            </h5>
+            <div class="slider">
+                <div class="platform bg-voilet">
+                    <h2>Mobile Platforms</h2>
+                    <p>Stable Powerful and superfast platfomrm</p>
+                    <div class="stores">
+                        <a href=""><img class="store" src="google play.png  " alt="google play store"></a>
+                        <a href=""><img class="store" src="Apple store.png  " alt="Apple store"></a>
+                    </div>
+                    <img class="ios-img" src="iosimg.png" alt="iosimg">
+
+
+                </div>
+                <div class="platform bg-green">
+                    <h2>Web</h2>
+                    <p>Platform with advanced market sentiment tracker, super quick price updation</p>
+                    <button class="btn color-green">Get Started</button>
+                    <img class="web-img" src="web.png" alt="web">
+
+                </div>
+                <div class="platform bg-blue">
+                    <h2>Exe</h2>
+                    <p>Superfast and Feature loaded Trading Platform for Traders.</p>
+                    <button class="btn color-blue ">Download Now</button>
+                    <img class="exe-img" src="Exe.png" alt="Exe">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <!-- platform section end -->
+    <!-- FAQ section start -->
+    <section>
+        <div class="container">
+            <h2 class="left-heading">Frequently Asked Questions</h2>
+            <div class="faqs">
+                <div class="faq">
+                    <div onclick="toggleContent('#faq-content1')" class="faq-box">
+                        <h3>Q.What is interest on ledger balance?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                        <div id="faq-content1" class="hide-content">
+                            <p>The interest on ledger balance applies to cash ledger credit amounts regardless of margin
+                                shortfall, with no capping on the amount of interest a customer can earn. Please see
+                                here for further information.</p>
+
+                        </div>
+
+                    </div>
+                    <div onclick="toggleContent('#faq-content2')" class="faq-box">
+                        <h3>Q.How can I invent in stock market with trade karle?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                        <div id="faq-content2" class="hide-content">
+                            <ul>
+                                <li>Visit trade.moneysukh.com and login through your Moneysukh User ID & password</li>
+                                <li>Search for the stock you want to buy. You need to ensure to have a sufficient amount
+                                    for buying the shares.</li>
+                                <li>Select the price at which you want to buy the stock.</li>
+                                <li>Conclude the transaction and the stock s will be credit to your demat account.</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div onclick="toggleContent('#faq-content3')" class="faq-box">
+                        <h3>Q.How can I invent in stock market with trade karle?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                        <div id="faq-content3" class="hide-content">
+                            <ul>
+                                <li>Visit trade.moneysukh.com and login through your Moneysukh User ID & password</li>
+                                <li>Search for the stock you want to buy. You need to ensure to have a sufficient amount
+                                    for buying the shares.</li>
+                                <li>Select the price at which you want to buy the stock.</li>
+                                <li>Conclude the transaction and the stock s will be credit to your demat account.</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <img class="faq-img" src="FAQ.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- FAQ section end -->
+
+
+    <!-- footer start -->
+    <footer>
+
+
+        <div class="row">
+
+            <div class="col-3">
+                <div class="link-cat" onclick="footerToggle(this)">
+                    <span class="footer-toggle"></span>
+                    <span class="footer-cat">Products</span>
+                </div>
+                <ul class="footer-cat-links">
+                    <li><a href="../Ipo/ipo.html"><span>IPO</span></a></li>
+                    <li><a href=""><span>Equity</span></a></li>
+                    <li><a href="../Cunrrency_Jitendra/index.html"><span>Currency</span></a></li>
+                    <li><a href=""><span>Mutual Fund</span></a></li>
+                    <li><a href=""><span>Commodity</span></a></li>
+                    <li><a href=""><span>Futures & Options</span></a></li>
+                    <li><a href="../EMT_Jitendra/index.html"><span>ETF</span></a></li>
+                </ul>
+            </div>
+
+            <div class="col-3">
+                <div class="link-cat" onclick="footerToggle(this)">
+                    <span class="footer-toggle"></span>
+                    <span class="footer-cat">WHY TRADE WITH US</span>
+                </div>
+                <ul class="footer-cat-links">
+                    <li><a href="../Get_interest_on_your_ledger_balance_Abhishek/index.html"><span>Get interest on your
+                        Ledger balance</span></a></li>
+            <li><a href="../Aboust_us_om/index.html"><span>Decades of Experience</span></a></li>
+            <li><a href="../Referral_program_Jitendra/index.html"><span>Referral program</span></a></li>
+            <li><a href="../Partner_with_us_Vishal/index.html"><span>Partner with us</span></a></li>
+            <li><a href=""><span>Algo Trading</span></a></li>
+            <li><a href=""><span>Real time Charts</span></a></li>
+        </ul>
+            </div>
+            <div class="col-3">
+                <div class="link-cat" onclick="footerToggle(this)">
+                    <span class="footer-toggle"></span>
+                    <span class="footer-cat">RESEARCH</span>
+                </div>
+                <ul class="footer-cat-links">
+                    <li><a href=""><span>Market Hunt</span></a></li>
+                    <li><a href=""><span>Derivative reports</span></a></li>
+                    <li><a href="../CommudityReport/CommudityReport.html"><span>Commodity reports</span></a></li>
+                    <li><a href="../CompanyReport/CompanyReport.html"><span>Company reports</span></a></li>
+                    <li><a href="../MarginUpdate/Margin-report.html"><span>Margin updates</span></a></li>
+                    <li><a href="../MonthlyMagazine/Monthly-Magazine.html"><span>Monthly Magazine</span></a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <div class="link-cat" onclick="footerToggle(this)">
+                    <span class="footer-toggle"></span>
+                    <span class="footer-cat">USEFUL LINKS</span>
+                </div>
+                <ul class="footer-cat-links">
+                    <li><a href="../blogs_baiom/index.html"><span>Blogs</span></a></li>
+                    <li><a href="../why-choose/index.html"><span>Why Choose</span></a></li>
+                    <li><a href="../Downloads/downloads.html"><span>Downloads</span></a></li>
+                    <li><a href=""><span>Email : tradekarle.com</span></a></li>
+                    <li><a href=""><span>Email : tradekarle.in</span></a></li>
+                    <li><a href="../Careers/career.html"><span>Career</span></a></li>
+               </ul>
+            </div>
+
+            <div class="data">
+                
+                <h2 class="tera">tRADEKARLE</h2>
+                <p class="data_text">
+                    OFFICE: NOIDA SECTOR  62  <br> (SUB OFFICE), GAUTAM BUDDHA <br> NAGAR, UTTAR PRADESH.
+                </p>
+                
+                <p class="data_text">
+                    96382-38000
+                </p>
+                <p class="data_text">(Support)</p>
+
+            </div>
+        </div>
+        
+
+        </div>
+        <div class="social">
+
+            <div class="sicial-icon">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-tumblr"></i></a>
+                <a href=""><i class="fab fa-reddit-alien"></i></a>
+            </div>
+        </div>
+        <hr style="color: gainsboro;">
+
+        <div id="copyright" style="padding-top: 10px;">
+            &copy; All Rights Reserved 2021-2023
+        </div>
+        <div id="owner">
+            <span>
+                Designed by <a href="#">Team D</a>
+            </span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="navfooter.js"></script>
+    <!-- footer end -->
+
+    <!-- javascripts and other scripts -->
+    <script src="index.js"></script>
+</body>
+
+</html>

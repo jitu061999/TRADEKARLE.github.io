@@ -1,0 +1,393 @@
+
+/* Navbar */
+
+/* .navbar {
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 0 11px #d7d7d7;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 4.2vh;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.img-div-logo{
+  width: 158px;
+  height: 45px;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+} */
+
+/* button.custom-toggler{
+  position: absolute;
+  right: 25px;
+  top: 20px;
+} */
+
+.custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler, .custom-toggler.navbar-toggler:hover {
+  border-color: #000000;
+}
+
+/* .custom-toggler .navbar-toggler-icon:hover {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+/* .navbar-nav {
+  position: absolute;
+  right:0;
+  margin-left: auto;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex{
+  padding-top: 8px;
+}
+
+.nav-item {
+  margin: 5px 0;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #000000;
+}
+
+.nav-link:hover{
+  color: #61ce70!important;
+} */
+
+
+/* Download and Tab Cntent*/
+#downloads.container{
+  width: 80%;
+  margin-top: 8rem;
+}
+
+#downloads p{
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+#downloads .nav-item{
+  /* padding: 0 7px; */
+  padding:8px;
+  border-radius: 6px;
+  margin: 8px 4px;
+  background-color: white;
+}
+
+/* #downloads .nav-link{
+  font-size: 0.8rem;
+  font-weight: 500;
+} */
+
+.btnn{
+  background-color: white;
+  border: 0;
+  margin-right: 8px;
+}
+
+.active{
+  background-color: #2ead01!important;
+}
+
+.pdf-div{
+  width: 1.5rem;
+  height: inherit;
+}
+
+.tab-1-content-inner,
+.tab-2-content-inner,
+.tab-3-content-inner,
+.tab-4-content-inner,
+.tab-5-content-inner,
+.tab-6-content-inner,
+.tab-7-content-inner {
+  width: 80%;
+  /* margin: auto auto auto 3.5rem; */
+  margin-top: 2px;
+  border-bottom: 1px solid black;
+  padding: 4px;
+}
+
+.tab-2-content-inner,
+.tab-3-content-inner,
+.tab-4-content-inner,
+.tab-6-content-inner{
+  text-align: center;
+  transform: translate(8%);
+  color: #ff0000;
+}
+
+#tab-contents p.heading, .tab-1-content-inner, .tab-5-content-inner{
+  justify-content: space-between;
+  display: inline-flex;
+  text-align: left;
+  color: #000000;
+}
+
+#tab-contents p.heading{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content,
+#tab-4-content,
+#tab-5-content,
+#tab-6-content {
+	display: none;
+	opacity: 0;
+}
+
+.show {
+	display: block !important;
+	opacity: 1 !important;
+	transition: all 1000 ease-in;
+}
+
+.popup{
+  width: 60%;
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+  left: 15%;
+  outline: 1px solid #575757;
+  border-radius: 6px;
+  background-color: #fff;
+  transform: translate(-10%,-40%) scale(0.1);
+  font-family: Montserrat;
+  visibility: hidden;
+}
+
+.show-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-10%,-40%) scale(1);
+}
+
+.head-content{
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+}
+
+.head-content h3{
+  font-size: 1.5rem;
+  padding: 15px 10px;
+  margin-bottom: 0;
+}
+
+.data-content h4{
+  font-size: 1rem;
+  padding: 6px;
+  margin-top: 6px;
+  color: #575757;
+  display: inline-block;
+}
+
+.lang-text {
+  margin: 10px;
+}
+
+.lang-text a{
+  text-decoration: none;
+  float: left;
+  margin: 0 30px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+/* Footer */
+
+/* .footer{
+  padding: 30px 150px 25px 150px;
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 2rem;
+  background-color: #C3FCF2;
+} */
+
+.desc{
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}
+
+.desc .logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.desc .img-div-logo{
+  position: relative;
+  top: 0.5vh;
+}
+
+.desc .logo p{
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.desc p.para{
+  width: 90%;
+  font-weight: 500;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #6a6868;
+}
+
+.desc .stardiv{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.desc .stardiv .star{
+  width:30px;
+  font-weight: 500;
+}
+
+/* .footer .rightbottoms{
+  position: relative;
+  left: 25px;
+} */
+
+.pageutility{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.pageutility h1{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.pageutility ul{
+  list-style: none;
+  color: #7f7c7c;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.pageutility ul li{
+  margin: 10px 0;
+  font-weight: 500;
+  color: #7f7c7c;
+}
+
+.rightbottoms{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.rightbottoms h2{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.rightbottoms .subdiv{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.rightbottoms .subdiv .img{
+  width: 145px;
+}
+
+.rightbottoms .subdiv .img img{
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+@media screen and (max-width: 991px) {
+  .flex{
+    display: inline;
+  }
+  .popup{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ipo{
+    margin: 7rem 0 1rem 0;
+    padding: 0 1rem;
+  }
+
+  .ipo .info{
+    padding: 0 10px 0 0;
+  }
+  .footer{
+    padding: 20px 10px;
+  }
+  .navbar{
+    width: 99.5vw;
+  }
+  .popup{
+    top : 55%;
+  }
+}
+
+@media (max-width: 418px){
+  .navbar{
+    width: 100%;
+  }
+
+  .popup{
+    width: 95vw;
+  }
+
+  /* #downloads .container{
+    width: 98%;
+  } */
+
+  .tab-1-content-inner, .tab-5-content-inner{
+    width: 90%;
+  }
+
+  .ipo .about{
+    width: 100%;
+  }
+
+  .ipo .info{
+    padding-right: 0;
+  }
+
+  .ipo .info p{
+    font-size: 2.3vh;
+  }
+}
+
+.nav-pills{
+  display: flex;
+  list-style: none;
+}
